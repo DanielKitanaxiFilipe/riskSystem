@@ -1,0 +1,102 @@
+@font-face {
+  font-family: CircularStdBook;
+  src: url(./../assets/CircularStdBook.ttf);
+}
+body{
+  font-family: CircularStdBook; 
+  background: #F5F5F5;
+}
+.h-100{
+  min-height: 100vh;
+}
+.w-100{
+  width: 100%;
+}
+.w-70{
+  width: 70%;
+}
+.background-auth{
+  background: linear-gradient(185deg, #0575E6 1%, #010f42 100%);
+  color: #fff;
+}
+.btn-primary{
+  background: #FCFCFC !important;
+  color: #808191 !important;
+  border: none !important;
+  text-align: left;
+  height: 39px;
+  padding-top: 10px;
+}
+.btn-primary.active{
+  background: #6C5DD3 !important;
+  color: #fff !important;
+}
+.btn-primary:hover{
+  background: #6C5DD3 !important;
+  color: #fff !important;
+}
+.menu{
+  background: #fff;
+  width: 230px;
+  max-width: 230px;
+  min-width: 230px;
+  height: 92vh;
+}
+.font-14{
+  font-size: 14px;
+}
+.link-auth{
+  color: #111;
+  text-decoration: none;
+  opacity: 0.4;
+}
+.link-auth:hover{
+  color: #111;
+  text-decoration: none;
+  opacity: 1;
+}
+.navbar{
+  background: #FCFCFC !important;
+}
+.cardStatic{
+  border-radius: 12px;
+  border: none;
+}
+.card-tabl{
+  border: none;
+  font-size: 13px !important;
+  border-radius: 15px;
+}
+.text-right{
+  text-align: right;
+}
+.avatar{
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100px;
+  transition: 0.1s;
+}
+.avatar > img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100px;
+  transition: 0.1s;
+}
+.avatar-user{
+  cursor: pointer;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 100px;
+  transition: 0.1s;
+}
+.avatar-user > img {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100px;
+  transition: 0.1s;
+}
